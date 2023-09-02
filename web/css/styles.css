@@ -1,0 +1,76 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
+*/
+/*
+    Created on : 01-Sep-2023, 9:19:09 pm
+    Author     : Redloaded
+*/
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main a {
+  font-weight: bold;
+  color: #FAF0E6;
+}
+main a :hover {
+  text-decoration: none;
+  color: #e1a467;
+}
+main a :visited {
+  color: #FAF0E6;
+}
+
+body {
+  background-color: #352F44;
+  font-family: "Inter", sans-serif;
+  color: #FAF0E6;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  width: 50%;
+}
+
+label {
+  color: #B9B4C7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+label input {
+  border-radius: 3px;
+  padding: 0.4em;
+  color: #5C5470;
+  border: 2px solid #B9B4C7;
+  background-color: #efefef;
+}
+
+#submit {
+  width: 25%;
+  padding: 0.5em;
+  background-color: transparent;
+  border: 2px solid #B9B4C7;
+  color: #FAF0E6;
+  font-size: 18px;
+}
+#submit :hover {
+  background-color: ligten(#5C5470, 10%);
+}
+
+/*# sourceMappingURL=styles.css.map */

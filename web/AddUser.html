@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Add User</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css "/>
+    </head>
+    <body>
+        <h1>Create User</h1>
+        
+        <form action="AddUser" method="POST" onsubmit="validateAndSubmit()">
+            <label for="username">
+               Username 
+               <input type="text" id="username" name="username" required/>
+            </label>
+            
+            <label for="dept">
+               Dept 
+               <input type="text" id="dept" name="dept" required/>
+            </label>
+            
+            <input type="submit" value="Add" id="submit"/>
+        </form>
+        
+        <script>
+            funciton validateAndSubmit(){
+                const username = document.getElementById("username");
+                const dept = document.getElementById("dept");
+                
+                return dept !== "" && username !== "";
+            }
+        </script>
+    </body>
+    
+   
+</html>
